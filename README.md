@@ -12,7 +12,7 @@ In this practice, I want to create a line bot that when people send message to t
 ### Demo
 You could run hands-on practice1.py to see the demo. Before you run the code, replace line_bot_api, handler and port number as yours. 
 
-I use line_bot_api.reply_message to reply message to our line users. This function takes two variables, event token and the type of message object. In this practice, I use <code>TextSendMessage()</code> to reply messages.
+I use <code>line_bot_api.reply_message()</code> to reply message to our line users. This function takes two variables, event token and the type of message object. In this practice, I use <code>TextSendMessage()</code> to reply messages.
 
 ### Code
 ![image](https://user-images.githubusercontent.com/32606310/108176818-68cad880-713d-11eb-9748-4fcd36c16c64.png)
