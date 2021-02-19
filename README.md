@@ -39,9 +39,13 @@ In this practice, I create a line bot that connect to a SOLite3 which store user
 the line bot show all the user's text history. 
 ### Demo
 You could run hands-on practice3.py to see the demo. Before you run the code, replace line_bot_api, handler and port number as yours.</br>
+
+### Code 
 -   create a database and a table called log in sqlite3</br>
 ![image](https://user-images.githubusercontent.com/32606310/108462395-802dd100-72b7-11eb-8da7-87424fb5cb45.png)</br>
 -   query sqlite the user's text history</br>
 ![image](https://user-images.githubusercontent.com/32606310/108462440-93d93780-72b7-11eb-9124-213c43741c0b.png)</br>
 -   insert user's text into sqlite3</br>
 ![image](https://user-images.githubusercontent.com/32606310/108462469-9e93cc80-72b7-11eb-975b-7ec61508ab86.png)</br>
+### Line demo
+![image](https://user-images.githubusercontent.com/32606310/108463787-fa5f5500-72b9-11eb-9f1a-65d1f71287da.png)
