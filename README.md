@@ -4,7 +4,7 @@
 -   Flask(a lightweight web framework, which is our web server in this practice)
 -   Line for Business(register an account to create an official line bot for the practice)
 ### Ngrok
-run ngrok.exe and type "ngrok http <your port>", then record the URL, which you will need when you create your own official line bot.
+run ngrok.exe and type "ngrok http \<your port number\>", then record the URL, which you will need when you create your own official line bot.
 
 # 1.Hands-on Practice:create a basic line bot 
 ### Introduction
