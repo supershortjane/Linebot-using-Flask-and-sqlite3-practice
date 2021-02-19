@@ -8,7 +8,7 @@ run ngrok.exe and type "ngrok http <your port>", then record the URL, which you 
 
 # 1.Hands-on Practice:create a basic line bot 
 ### Introduction
-In this practice, I want to create a line bot that when people send message to the robot, the robot would reply the user's name, user's ID and the message that user send. 
+In this practice, I create a line bot that when people send message to the robot, the robot would reply the user's name, user's ID and the message that user send. 
 ### Demo
 You could run hands-on practice1.py to see the demo. Before you run the code, replace line_bot_api, handler and port number as yours. 
 
@@ -21,7 +21,7 @@ I use <code>line_bot_api.reply_message()</code> to reply message to our line use
 
 # 2.Hands-on practice:create a line bot that reply different types of messages
 ### Introduction 
-In this practice, I want to create a line bot that reponse with different kind of messages, such as image, sticker, and location.
+In this practice, I create a line bot that reponse with different kind of messages, such as image, sticker, and location.
 ### Demo
 You could run hands-on practice2.py to see the demo. Before you run the code, replace line_bot_api, handler and port number as yours.
 
@@ -33,5 +33,15 @@ I use <code>line_bot_api.reply_message()</code> again, but input different objec
 ![IMG_6978](https://user-images.githubusercontent.com/32606310/108203229-27e2bc00-715d-11eb-942d-21253123ae39.PNG)
 ![IMG_6979](https://user-images.githubusercontent.com/32606310/108203236-29ac7f80-715d-11eb-8155-bb94fc322b9f.PNG)
 
-
-
+# 3.Hands-on practice:create a line bot with a database
+### Introduction
+In this practice, I create a line bot that connect to a SOLite3 which store users' information and messages. When the user type 'show<user's name>text history', 
+the line bot show all the user's text history. 
+### Demo
+You could run hands-on practice3.py to see the demo. Before you run the code, replace line_bot_api, handler and port number as yours.</br>
+-   create a database and a table called log in sqlite3</br>
+![image](https://user-images.githubusercontent.com/32606310/108462395-802dd100-72b7-11eb-8da7-87424fb5cb45.png)</br>
+-   query sqlite the user's text history</br>
+![image](https://user-images.githubusercontent.com/32606310/108462440-93d93780-72b7-11eb-9124-213c43741c0b.png)</br>
+-   insert user's text into sqlite3</br>
+![image](https://user-images.githubusercontent.com/32606310/108462469-9e93cc80-72b7-11eb-975b-7ec61508ab86.png)</br>
